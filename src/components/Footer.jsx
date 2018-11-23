@@ -13,6 +13,7 @@ function Footer(props) {
           font-family: sans-serif;
           font-size: 0.75rem;
           width: 100%;
+          height: 3rem;
           text-align: center;
           position: absolute;
           bottom: -15vmin;
@@ -33,7 +34,6 @@ function Footer(props) {
           min='60'
           max='200'
           onChange={props.onChangeTempo} />
-        <label>Tempo</label>
       </div>
       {/* <div id="copyright-notice">
         © 2018 Eggborne Studios - <Link to="/pets"><span className="underlined">Terms of Use</span></Link> | <Link to="/parents"><span className="underlined">Privacy Policy</span></Link>
