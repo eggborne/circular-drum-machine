@@ -1,0 +1,64 @@
+/* GLOBAL */
+
+body {
+  overflow: hidden;
+  --mainBg: #fff;
+  --darkest: #111;
+  --dark: #242832;
+  --light: #4e5569;
+  --darkAccent: #81878B;
+  --darkBg: #d3d3d3;
+  --lightBg: #eee;
+  --outerBorderColor: gray;
+  --innerBorderColor: rgb(184, 181, 181);
+  max-width: 800px;
+  min-width: 324px;
+  margin:0;
+  box-sizing:border-box;
+  font-family: Playfair Display, serif;
+}
+#main {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+#padding-container {
+  padding: 3%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+#header {
+  width: 100%;
+  height: 3rem;
+  background-color: black;
+  color: white;
+  display: inline-flex;
+  justify-content: space-around;
+  align-items: center;
+}
+#drum-circle {
+  width: 96vmin;
+  height: 96vmin;
+  background: #000;
+  border-radius: 50%;
+  display: inline-flex;
+  justify-content: space-around;
+  align-items: flex-start;
+}
+#tick-hand {
+  width: 0.5vmin;
+  height: 48vmin;
+  transform-origin: 50% 100%;
+  background-color: red;
+}
+#tempo-control > input {
+  width: 100%;
+  
+}
+
+
