@@ -19,7 +19,7 @@ body {
   width: 100%;
   display: flex;
   flex-direction: column;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
 }
 #header {
@@ -39,12 +39,14 @@ body {
   display: inline-flex;
   justify-content: space-around;
   align-items: flex-start;
+  z-index: 5;
 }
 #tick-hand {
   width: 0.5vmin;
   height: 48vmin;
   transform-origin: 50% 100%;
-  background-color: red;
+  background-color: gray;
+  /* transition: background 100ms ease; */
 }
 #tempo-control > input {
   width: 100%;
